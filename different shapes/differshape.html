@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rectangle, .square, .ellipses, .circle{
+            border-width:2px 4px 6px 8px;
+            border-style: solid dashed dotted double;
+            border-color: #1e3a8a #0f766e #84cc16 #9333ea;
+        }
+        .circle{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            align-content: center;
+            background-color: #dbeafe;
+            color:#1e293b;
+        }
+        .ellipses{
+            width: 300px;
+            height: 600px;
+            border-radius: 50%;
+            align-content: center;
+            background-color: #fef3c7;
+        }
+        .square{
+            width: 650px;
+            height: 650px;
+            border-radius: 10px;
+            align-content: center;
+            background-color:#ccfbf1;
+        }
+        .rectangle{
+            width: 1200px;
+            height: 700px;
+            background-color: #fde68a;
+        }
+        .circle:hover{
+            background-color: #93c5fd;
+        }
+        .ellipses:hover{
+            background-color: #fca5a5;
+        }
+        .square:hover{
+            background-color: #5eead4;
+        }
+        .rectangle:hover{
+            background-color: #facc15;
+        }
+        body{
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class = "rectangle">
+            Rectangle
+            <div class = "square">
+                Square
+                <div class = "ellipses">
+                    Ellipses
+                    <div class="circle">
+                        Circle
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
